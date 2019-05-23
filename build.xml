@@ -2666,7 +2666,7 @@ Apache Tomcat ${version} native binaries for Win64 AMD64/EMT64 platform.
         <uptodate srcfile="${commons-dbcp.home}" targetfile="${tomcat-dbcp-src.jar}" />
       </and>
     </condition>
-    <antcall target="build-tomcat-dbcp" />
+    <!-- <antcall target="build-tomcat-dbcp" /> -->
 
     <!-- Download JDT (Eclipse compiler) -->
     <antcall target="downloadfile-2">
